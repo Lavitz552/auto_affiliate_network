@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+httpx
+sqlalchemy
+jinja2
+python-dotenv
+openai
+requests
