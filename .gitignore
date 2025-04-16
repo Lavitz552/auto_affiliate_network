@@ -3,3 +3,10 @@ __pycache__/
 config.env
 *.sqlite3
 /static/
+
+# Node.js
+node_modules/
+.next/
+dist/
+*.log
+.DS_Store
