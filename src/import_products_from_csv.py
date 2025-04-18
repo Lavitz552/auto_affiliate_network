@@ -1,7 +1,10 @@
 import csv
 import os
 from datetime import datetime
-from catalog_db import upsert_product, init_db
+try:
+    from catalog_db import upsert_product, init_db
+except ModuleNotFoundError:
+    from .catalog_db import upsert_product, init_db
 
 def import_products(csv_path):
     print(f"Importing products from {csv_path} ...")
